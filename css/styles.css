@@ -14,6 +14,9 @@ html {
     height: 100vh;
     padding-top: 10px;
     background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -22,17 +25,17 @@ html {
     background-color: black;
     margin: 0 auto;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 0px 6px 2px;
+    box-shadow: 0px 0px 6px 2px #4a4040;
 }
 
 .header h1 {
-    height: 30px;
+    height: 40px;
     text-align: center;
     color: white;
     font-size: 1.5rem;
@@ -55,4 +58,22 @@ html {
     font-size: 1.4rem;
     font-weight: 600;
     text-decoration: none;
+}
+
+.main {
+    width: 80%;
+    height: 55vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 6px 2px #4a3131;
+}
+
+.footer {
+    margin-top: 20px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
 }
